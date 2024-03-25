@@ -5,7 +5,7 @@ EchoTexts is a **text-only social network**, inspired by Twitter, designed and d
 
 The development of EchoTexts follows the **Git Flow methodology**, which organizes the codebase into different branches for better collaboration and version control. The main branch serves as the stable release branch, while the develop branch contains ongoing development work for the next release. Additionally, there are several feature branches (prefixed with **'feat/'**), testing branches (prefixed with **'test/'**), and fix branches (prefixed with **'fix/'**) that contain individual features, testing implementations, and bug fixes, respectively.
 
-# Software Stack 🛠️
+## Software Stack 🛠️
 
 ### Front-end 📱
 - **Framework:** React
@@ -24,11 +24,16 @@ The development of EchoTexts follows the **Git Flow methodology**, which organiz
 ### Testing 🧪
 - **Integration Testing:** Jest & Supertest
 
-## Preview
+## Preview 🖼️
 
-## Prerequisites
+## Prerequisites 🛠
+Before running this application, ensure you have the following installed:
 
-## Getting Started
+- Node.js and npm
+- PostgreSQL
+- Git
+
+## Getting Started 🚀
 
 ## Acknowledgements 🙏
 
