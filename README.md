@@ -25,6 +25,7 @@ The development of EchoTexts follows the **Git Flow methodology**, which organiz
 - **Integration Testing:** Jest & Supertest
 
 ## Preview 🖼️
+Below is a preview of EchoTexts, showcasing its user interface:
 
 ## Prerequisites 🛠
 Before running this application, ensure you have the following installed:
@@ -34,7 +35,7 @@ Before running this application, ensure you have the following installed:
 - Git
 
 ## Getting Started 🚀
-
+![User Profile Page](Screenshots/user_profile.jpeg)
 ## Acknowledgements 🙏
 
 - [Supabase](https://supabase.io) for providing the cloud-hosted PostgreSQL database solution.
