@@ -36,3 +36,4 @@ The development of EchoTexts follows the **Git Flow methodology**, which organiz
 - [Prisma](https://prisma.io) for auto-generating database models and simplifying database access.
 
 ## License 📄
+EchoTexts repository is licensed under the MIT This project is licensed under the [MIT License](./LICENSE).
