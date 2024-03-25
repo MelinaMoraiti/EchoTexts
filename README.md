@@ -44,33 +44,33 @@ To get started with EchoTexts, follow these steps:
   git clone https://github.com/MelinaMoraiti/EchoTexts.git
   ```
 2. **Navigate to the server directory:**
-   ```bash
+  ```bash
    cd server
-   ```
+  ```
 3. **Install client dependencies:**
-   ```bash
-   npm install
-   ```
+  ```bash
+  npm install
+  ```
 4. **Set up the PostgreSQL database according to the provided schema.**
 5. **Configure the environment variables DATABASE_URL, PORT (Port server runs), SECRET (JWT secret) in a .env file.**
 6. **Start the server:**
-   ```bash
-   node server.js
-   ```
+  ```bash
+  node server.js
+  ```
 7. **Open a new terminal window/tab from the EchoTexts project directory.**
 8. **Navigate to the client directory:**
-   ```bash
-   cd client
-   ````
+  ```bash
+  cd client
+  ````
 9. **Install client dependencies:**
-   ```bash
-   npm install
-   ```
+  ```bash
+  npm install
+  ```
 10. **Configure the environment variable for client [VITE_BACKEND_URL]  in a .env file (which is the address server runs).**
 11. **Start the client:**
-   ```bash
-   npm start
-   ```
+  ```bash
+  npm start
+  ```
 12. **Access the application in your browser at http://localhost:[PORT CLIENT RUNS DEFAULT IS 5173].**
 
 ## Improvement Ideas
