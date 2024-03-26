@@ -5,37 +5,37 @@ EchoTexts is a **text-only social network**, inspired by Twitter, designed and d
 
 The development of EchoTexts follows the **Git Flow methodology**, which organizes the codebase into different branches for better collaboration and version control. The main branch serves as the stable release branch, while the develop branch contains ongoing development work for the next release. Additionally, there are several feature branches (prefixed with **'feat/'**), testing branches (prefixed with **'test/'**), and fix branches (prefixed with **'fix/'**) that contain individual features, testing implementations, and bug fixes, respectively.
 
-## Software Stack 🛠️
+## 🛠️ Software Stack 
 
-### Front-end 📱
+### 📱 Front-end
 - **Framework:** React
 - **Communication:** RESTful web services
 - **Authentication:** JWT COOKIE
 
-### Back-end ⚙️
+### ⚙️ Back-end 
 - **Framework:** Express with Node.js
 - **API Layers:** Controllers, Routes, Data Layer (Models) each model corresponds to a table in your database
 - **Dependency Injection:** Implemented
 
-### Database 🗄️
+### 🗄️ Database 
 - **Type:** PostgreSQL securely hosted in the cloud, eliminating the need for us to manage infrastructure or worry about server maintenance
 - **ORM:** Prisma, automatically generates models based on the database schema defined in the prisma.schema file
 
-### Testing 🧪
+### 🧪 Testing 
 - **Integration Testing:** Jest & Supertest
 
-## Preview 🖼️
+## 🖼️ Preview
 ### Below is a preview of EchoTexts, showcasing its user interface, specifically home page (Screenshots of the app can be found in the Screenshots directory):
 ![Home Page](Screenshots/home_page.jpeg)
 
-## Prerequisites 🛠
+## 🛠 Prerequisites 
 Before running this application, ensure you have the following installed:
 
 - Node.js and npm
 - PostgreSQL
 - Git
 
-## Getting Started 🚀
+## 🚀 Getting Started 
 
 To get started with EchoTexts, follow these steps:
 
@@ -76,10 +76,10 @@ To get started with EchoTexts, follow these steps:
 ## Improvement Ideas
 - **Create dockerfile for easier setup**
 
-## Acknowledgements 🙏
+## 🙏 Acknowledgements 
 
 - [Supabase](https://supabase.io) for providing the cloud-hosted PostgreSQL database solution.
 - [Prisma](https://prisma.io) for auto-generating database models and simplifying database access.
 
-## License 📄
+## 📄 License 
 EchoTexts repository is licensed under the [MIT License](./LICENSE).
