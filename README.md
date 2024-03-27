@@ -74,7 +74,8 @@ To get started with EchoTexts, follow these steps:
 12. **Access the application in your browser at http://localhost:[PORT_CLIENT_RUNS] (DEFAULT IS 5173).**
 
 ## ⬆️💡 Improvement Ideas
-- **Create dockerfile for easier setup**
+- [ ] **Create dockerfile for easier setup**
+- [ ] **UI Improvements for login and register page**
 
 ## 🙏 Acknowledgements 
 
