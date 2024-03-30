@@ -75,7 +75,12 @@ To get started with EchoTexts, follow these steps:
 
 ## ⬆️💡 Improvement Ideas
 - [ ] **Create dockerfile for easier setup**
-- [ ] **UI Improvements for login and register page**
+- [x] **UI Improvements for login and register page**
+- [ ] **Add pagination with infinite scrolling to the home feed, results page**
+- [ ] **Users will receive notifications for likes, retweets, and replies to my tweets**
+- [ ] **Add an administrator panel that will provide user management, content moderation and analytics features**
+- [ ] **Users can report or block other users for inappropriate behavior**
+- [ ] **Add sort by (popularity, date created, most reposted) filter in the search functionality**
 
 ## 🙏 Acknowledgements 
 
