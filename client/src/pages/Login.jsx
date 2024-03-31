@@ -53,7 +53,7 @@ const Login = () => {
 
     return (
         <div className="Vertical-Flex-Container">           
-        <svg viewBox="0 0 600 150">
+        <svg className="text-graphics" viewBox="0 0 600 150">
                 <symbol id="s-text">
                     <text textAnchor="middle" x="50%" y="80%"  fontSize="130px">EchoTexts</text>
                 </symbol>
@@ -66,15 +66,17 @@ const Login = () => {
                 </g>
         </svg>
         <div className={"Panel Vertical-Flex-Container"}>
-            <h2>Sign in to your account</h2>
+            <h3>Sign in to your account</h3>
             <form className={"Vertical-Flex-Container"} onSubmit={handleLogin}>
-                <label htmlFor="Username">Username or Email</label>
-                <input value={username} onChange={(e) => setUsername(e.target.value)} type="username" id="username"
-                    name="username" required/>
-                <label htmlFor="Password">Password</label>
-                <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" id="password"
-                    name="password" required/>
-                <button type="Login">Continue</button>
+                <label className={"Vertical-Flex-Container"}>
+                    <span>Email/Username</span>
+                    <input value={username} onChange={(e) => setUsername(e.target.value)} type="username" id="username" name="username" required/>
+                </label>
+                <label className={"Vertical-Flex-Container"}>
+                    <span>Password</span>
+                    <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" id="password"name="password" required/>
+                </label>
+                <button type={"submit"}>Continue</button>
             </form>
             <button onClick={handleClick}>Don't have an account register here.</button>
         </div>
