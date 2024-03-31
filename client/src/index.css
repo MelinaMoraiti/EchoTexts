@@ -58,7 +58,7 @@ body {
   height: 100%;
   align-items: center;
 }
-svg {
+.text-graphics {
   display: block;
   font: 10.5em 'Raleway';
   width: 600px;
@@ -109,6 +109,7 @@ h2 {
 }
 
 h3 {
+  font-size: var(--font-size-xxl);
   margin: 0;
 }
 
