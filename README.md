@@ -25,7 +25,8 @@ The development of EchoTexts follows the **Git Flow methodology**, which organiz
 - **Integration Testing:** Jest & Supertest
 
 ## 🖼️ Preview
-### Below is a preview of EchoTexts, showcasing its user interface, specifically home page (Screenshots of the app can be found in the Screenshots directory):
+Below is a preview of EchoTexts, showcasing its user interface, specifically home page (Screenshots of the app can be found in the Screenshots directory):
+
 ![Home Page](Screenshots/home_page.jpeg)
 
 ## 🛠 Prerequisites 
