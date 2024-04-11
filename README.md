@@ -7,25 +7,26 @@ The development of EchoTexts follows the **Git Flow methodology**, which organiz
 
 ## 🛠️ Software Stack 
 
-### 📱 Front-end
+### Front-end
 - **Framework:** React
 - **Communication:** RESTful web services
 - **Authentication:** JWT COOKIE
 
-### ⚙️ Back-end 
+### Back-end 
 - **Framework:** Express with Node.js
 - **API Layers:** Controllers, Routes, Data Layer (Models) each model corresponds to a table in your database
 - **Dependency Injection:** Implemented
 
-### 🗄️ Database 
+### Database 
 - **Type:** PostgreSQL securely hosted in the cloud, eliminating the need for us to manage infrastructure or worry about server maintenance
 - **ORM:** Prisma, automatically generates models based on the database schema defined in the prisma.schema file
 
-### 🧪 Testing 
+### Testing 
 - **Integration Testing:** Jest & Supertest
 
 ## 🖼️ Preview
-### Below is a preview of EchoTexts, showcasing its user interface, specifically home page (Screenshots of the app can be found in the Screenshots directory):
+Below is a preview of EchoTexts, showcasing its user interface, specifically home page (Screenshots of the app can be found in the Screenshots directory):
+
 ![Home Page](Screenshots/home_page.jpeg)
 
 ## 🛠 Prerequisites 
