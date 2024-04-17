@@ -52,9 +52,12 @@ To get started with EchoTexts, follow these steps:
   ```bash
   npm install
   ```
-4. **Set up the PostgreSQL database according to the provided schema.**
-5. **Configure the environment variables DATABASE_URL, PORT (Port server runs), SECRET (JWT secret) in a .env file.**
-6. **Start the server:**
+4. **Configure the environment variables DATABASE_URL, PORT (Port server runs), SECRET (JWT secret) in a .env file.**
+5. **Set up the PostgreSQL database according to the provided schema.**
+```bash
+npx prisma generate
+```
+7. **Start the server:**
   ```bash
   node server.js
   ```
