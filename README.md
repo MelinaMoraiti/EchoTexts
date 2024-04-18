@@ -73,7 +73,7 @@ npx prisma generate
 10. **Configure the environment variable for client [VITE_BACKEND_URL]  in a .env file (which is the address server runs).**
 11. **Start the client:**
   ```bash
-  npm start
+  npm run start
   ```
 12. **Access the application in your browser at http://localhost:[PORT_CLIENT_RUNS] (DEFAULT IS 5173).**
 
