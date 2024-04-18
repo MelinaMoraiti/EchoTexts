@@ -48,7 +48,7 @@ To get started with EchoTexts, follow these steps:
   ```bash
    cd server
   ```
-3. **Install client dependencies:**
+3. **Install server dependencies:**
   ```bash
   npm install
   ```
